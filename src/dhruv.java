@@ -5,7 +5,6 @@ public class dhruv {
                         Math.log(2));
         return p;
     }
-
     public static void main(String args[]) {
         Scanner sc = new Scanner(System.in);
         int m = sc.nextInt();
@@ -22,8 +21,7 @@ public class dhruv {
             b[i]=res+k;
         }
         for (int i = 0; i < m; i++) {
-            System.out.println(b[i]);
+            System.out.print(b[i]+" ");
         }
-
     }
 }
